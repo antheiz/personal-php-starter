@@ -1,0 +1,16 @@
+{
+    "name": "theis/php-template",
+    "description": "My personal starter for PHP",
+    "autoload": {
+        "psr-4": {
+            "Theis\\PhpTemplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "antheiz",
+            "email": "salupacode@gmail.com"
+        }
+    ],
+    "require": {}
+}
