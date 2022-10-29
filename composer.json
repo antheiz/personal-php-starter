@@ -1,16 +1,15 @@
 {
-    "name": "theis/php-template",
-    "description": "My personal starter for PHP",
-    "autoload": {
-        "psr-4": {
-            "Theis\\PhpTemplate\\": "src/"
-        }
-    },
+    "name": "theis/starter-php-project",
+    "description": "Starter code for PHP Project",
+    "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "antheiz",
             "email": "salupacode@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
 }
